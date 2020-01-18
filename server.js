@@ -9,7 +9,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.use(express.static(__dirname));
-app.use(express.static(path.join(__dirname, 'react_exp_mlab/build')));
+app.use(express.static(path.join(__dirname, 'client/build')));
 app.get('/ping', function (req, res) {
     console.log("pong");
     return res.send('pong');
