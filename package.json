@@ -1,13 +1,13 @@
 {
-  "name": "express_mLab",
-  "version": "1.0.0",
+  "name": "dividend",
+  "version": "1.0.1",
   "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "build": "cd react_exp_mlab && npm run build",
-    "rebuildStart": "cd react_exp_mlab && npm run build && cd .. && node server.js",
-    "heroku-postbuild": "cd react_exp_mlab && npm install && npm run build",
+    "build": "cd client && npm run build",
+    "rebuildStart": "cd client && npm run build && cd .. && node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build",
     "heroku": "git push heroku master"
   },
   "author": "",
