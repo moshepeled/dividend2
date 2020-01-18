@@ -5,6 +5,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js"
+  },
+  "scripts1": {
     "start": "node server.js",
     "build": "cd client && npm run build",
     "rebuildStart": "cd client && npm run build && cd .. && node server.js",
