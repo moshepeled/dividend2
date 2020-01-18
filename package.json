@@ -1,7 +1,7 @@
 {
   "name": "dividend",
   "version": "1.0.1",
-  "homepage": "https://moshepeled.github.io/dividend",
+  "homepage": "https://moshepeled.github.io/dividend/client/build",
   "description": "",
   "main": "server.js",
   "scripts": {
